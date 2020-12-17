@@ -5,6 +5,6 @@ async function connect(){
     await connection.connect();
     console.log("connected")
     await connection.subscribe('sensor', 1, on_publish);
-    publish('sensor',connection,{'Temperature':random_number_with_decimal_places(15,60,2)})  
+    publish('sensor',connection,{'Temperature':23.65})  
 }
 connect()
