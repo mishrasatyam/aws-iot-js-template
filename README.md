@@ -5,10 +5,11 @@ It uses aws-iot-device-sdk-v2 . For more details check
 [aws-sdk](https://github.com/aws/aws-iot-device-sdk-js-v2)
 ## Installation
 
-Use npm to install aws_iot_js_simple.
+Use git to clone aws_iot_js_simple_template and npm to install dependencies.
 
 ```bash
-npm install aws_iot_js_simple
+git clone https://github.com/mishrasatyam/aws-iot-js-template.git
+cd aws-iot-js-template && npm install
 ```
 ## Prerequesties
 Make sure your policy allows node js sdk and topics used by you.eg(topic is sensor here):
@@ -67,7 +68,7 @@ Edit  a config.json mentioning below fields(easily find endpoint and client_id i
 ```node 
 node index.js
 ```
-It will publish a message sending Temperature. You cn edit index.js to customise data as per your needs.
+It will publish a message sending {Temperature:23.65}. You cn edit index.js to customise data as per your needs.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
