@@ -1,0 +1,7 @@
+{
+    "endpoint":"",
+    "root_ca_cert":"",
+    "pem_cert": "",
+    "private_key":"",
+    "client_id":""
+}
