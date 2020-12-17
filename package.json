@@ -1,0 +1,16 @@
+{
+  "name": "aws-iot-js-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Satyam Mishra <satyam.mishra975@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws_iot_js_simple": "^1.0.2"
+  }
+}
